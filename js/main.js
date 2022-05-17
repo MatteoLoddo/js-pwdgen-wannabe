@@ -16,3 +16,6 @@ document.getElementById("colore-pref").innerHTML =`Ed il tuo colore preferito è
 
 
 
+document.getElementById("info-user").innerHTML =`<span> Benvenuto ${nomeUtente} ${cognomeUtente}</span><br>
+                                                <span>Attualmente hai ${eta} anni!</span><br>
+                                                <span>Ed il tuo colore preferito e il ${prefColor}</span>`
